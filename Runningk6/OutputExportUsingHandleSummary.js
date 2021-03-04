@@ -1,5 +1,5 @@
 import http from 'k6/http';
-import { jUnit, textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/summary.js';
+import { jUnit, textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/index.js';
 
 // Run k6 run Runningk6/OutputExportToFileJson.js
 export let options = {
