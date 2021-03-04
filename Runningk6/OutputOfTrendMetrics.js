@@ -1,5 +1,5 @@
 import http from 'k6/http';
-
+// RUn k6 run --summary-trend-stats="min,avg,med,p(99),p(99.9),max,count" --summary-time-unit=ms  Runningk6/OutputOfTrendMetrics.js
 export let options = {
     stages: [
         {duration: '10s', target: 100},
